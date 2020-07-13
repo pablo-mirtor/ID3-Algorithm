@@ -1,0 +1,59 @@
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.node circle {
+    fill: rgb(247, 106, 214);
+    stroke: rgb(184, 37, 81);
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font-size: 14px;
+    background-color: black;
+    fill: black;
+}
+
+
+path.link {
+    fill: none;
+    stroke: #2593B8;
+    stroke-width: 1.5px;
+}
+
+
+span {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #F4F4F4;
+    text-shadow: 0 1px 4px black;
+    float: right;
+}
+
+.line{
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 3px 3px;
+    height: 30px;
+    background: antiquewhite;
+}
+
+input[type="submit"]{
+    border-radius: 3px 3px;
+    height: 35px;
+    background: antiquewhite;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover{
+    font-weight: bold;
+}
